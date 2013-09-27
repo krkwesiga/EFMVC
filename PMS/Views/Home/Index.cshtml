@@ -1,0 +1,34 @@
+﻿@{
+  ViewBag.Title = "Index";
+}
+
+<html>
+<head>
+  <title>Simple Site</title>
+  <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
+</head>
+
+<body class="body">
+  <form method="POST" action="Home/Home">
+    <div class="indexwrapper">
+
+      <div id="header">
+        @Html.Partial("~/Views/Home/_IndexHeaderPartial.cshtml")
+      </div>
+
+      <div id="systemdescription">
+        @Html.Partial("~/Views/Home/_SystemDescriptionPartial.cshtml")
+      </div>
+
+      <div id="systemaccess">
+        @Html.Partial("~/Views/Home/_SystemAccessPartial.cshtml")
+      </div>
+
+      <div id="footer">
+        @Html.Partial("~/Views/Home/_FooterPartial.cshtml")
+      </div>
+
+    </div>
+  </form>
+</body>
+</html>

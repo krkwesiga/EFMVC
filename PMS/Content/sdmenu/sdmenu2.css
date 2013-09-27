@@ -1,0 +1,81 @@
+
+/*.title{
+	width: 192px;
+}
+.title a:hover {
+	text-decoration:none;
+	color:#eee;
+	
+	}*/
+.title{
+	font-family:'Segoe UI', Segoe, Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color:#5A86A3;
+	padding: 5px;
+	width: 192px;
+	height: 25px;
+	text-align: left;
+	font-weight:bold;
+	margin-left:15px;
+	border-bottom: 1px solid #eee groove;
+	text-decoration:none;
+}
+td{
+}
+
+.title a{
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.title a:hover{
+	color: #eee;
+	text-decoration: underline;
+}
+div.sdmenu {
+	width: 192px;
+	font-family:'Segoe UI', Segoe, Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	padding-bottom: 10px;
+	background: url(bottom1.gif) no-repeat  right bottom;
+	color: #fff;
+}
+div.sdmenu div {
+	background-color:#5A86A3;
+	overflow: hidden;
+}
+div.sdmenu div:first-child {
+	background-color:#5A86A3;
+}
+div.sdmenu div.collapsed {
+	height: 25px;
+}
+div.sdmenu div span {
+	display: block;
+	padding: 5px 25px;
+	font-weight: bold;
+	color: white;
+	background: url(expanded.gif) no-repeat 10px center;
+	cursor: default;
+	border-bottom: 1px solid #eee;
+}
+div.sdmenu div.collapsed span {
+	background-image: url(collapsed.gif);
+}
+div.sdmenu div a {
+	padding: 5px 10px;
+	background: #CCCCCC;
+	display: block;
+	border-bottom: 1px solid #eee;
+	color: #000000;
+	text-decoration: none;
+}
+div.sdmenu div a.current {
+	background: #fff;
+	color: #464646;
+}
+div.sdmenu div a:hover {
+	background: #999999;
+	color: #fff;
+	text-decoration: none;
+}

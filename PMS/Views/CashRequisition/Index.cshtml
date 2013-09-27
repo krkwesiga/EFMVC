@@ -1,0 +1,85 @@
+﻿@using PMS.Models.Helpers
+@model IEnumerable<PMS.Models.CashRequisition>
+
+@{
+  ViewBag.Title = "Index";
+}
+
+<div class="homewrapper">
+
+  <div id="header">
+    @Html.Partial("~/Views/Home/_HeaderPartial.cshtml")
+  </div>
+
+  <div id="menu">
+    @Html.Partial("~/Views/Home/_MenuPartial.cshtml")
+  </div>
+
+  <div class="content">
+    <div class="contentheading">
+      Cash requisitions > @Html.ActionLink("Create", "Create", "CashRequisition")
+    </div>
+    <br />
+    <table class="gridtable">
+      <tr>
+        <th>
+          <input type="text" name="Amount"></th>
+        <th>
+          <input type="text" name="Purpose"></th>
+        <th>
+          <input type="text" name="Activity"></th>
+        <th>
+          <input type="text" name="Project"></th>
+        <th>
+          <input type="text" name="ReqMadeBy"></th>
+        <th>
+          <input type="submit" name="btnSearch" value="Filter">
+      </tr>
+
+      <tr>
+        <th>Amount</th>
+        <th>Purpose</th>
+        <th>Activity</th>
+        <th>Project</th>
+        <th>Requisition Made By</th>
+        <th>Actions</th>
+      </tr>
+
+      @{
+        foreach (var item in Model)
+        {
+        <tr>
+          <td align="right">
+            @Html.DisplayFor(model => item.Amount)
+          </td>
+          <td align="left">
+            @Html.DisplayFor(model => item.Purpose)
+          </td>
+          <td align="left">
+            @Html.DisplayFor(model => item.Activity)
+          </td>
+          <td align="left">
+            @Html.DisplayFor(model => item.Project.ProjectDescription)
+          </td>
+          <td align="left">
+            @Html.DisplayFor(model => item.User.FirstName)
+          </td>
+          <td align="center">
+            @Html.ActionImage("CashRequisition", "Approve", new { id = item.CashRequisitionId }, "~/Content/drop-yes.gif", "Approve", "Approve")
+            @Html.ActionImage("CashRequisition", "Details", new { id = item.CashRequisitionId }, "~/Content/application_view_list.png", "Details", "Details")
+            @Html.ActionImage("CashRequisition", "Reject", new { id = item.CashRequisitionId }, "~/Content/close.png", "Reject", "Reject")
+          </td>
+        </tr>
+  
+        }
+      }
+
+    </table>
+
+  </div>
+
+  <div id="footer">
+    @Html.Partial("~/Views/Home/_FooterPartial.cshtml")
+  </div>
+</div>
+

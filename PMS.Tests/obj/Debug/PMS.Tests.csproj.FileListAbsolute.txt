@@ -1,0 +1,66 @@
+G:\PMS\PMS.Tests\bin\Debug\PMS.Tests.dll.config
+G:\PMS\PMS.Tests\bin\Debug\PMS.Tests.dll
+G:\PMS\PMS.Tests\bin\Debug\PMS.Tests.pdb
+G:\PMS\PMS.Tests\bin\Debug\EntityFramework.dll
+G:\PMS\PMS.Tests\bin\Debug\MetroFramework.dll
+G:\PMS\PMS.Tests\bin\Debug\MetroFramework.Fonts.dll
+G:\PMS\PMS.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+G:\PMS\PMS.Tests\bin\Debug\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\PMS\PMS.Tests\bin\Debug\Newtonsoft.Json.dll
+G:\PMS\PMS.Tests\bin\Debug\PMS.dll
+G:\PMS\PMS.Tests\bin\Debug\System.Net.Http.Formatting.dll
+G:\PMS\PMS.Tests\bin\Debug\System.Web.Helpers.dll
+G:\PMS\PMS.Tests\bin\Debug\System.Web.Http.dll
+G:\PMS\PMS.Tests\bin\Debug\System.Web.Http.WebHost.dll
+G:\PMS\PMS.Tests\bin\Debug\System.Web.Mvc.dll
+G:\PMS\PMS.Tests\bin\Debug\System.Web.Razor.dll
+G:\PMS\PMS.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+G:\PMS\PMS.Tests\bin\Debug\System.Web.WebPages.dll
+G:\PMS\PMS.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+G:\PMS\PMS.Tests\bin\Debug\PMS.pdb
+G:\PMS\PMS.Tests\bin\Debug\EntityFramework.xml
+G:\PMS\PMS.Tests\bin\Debug\Newtonsoft.Json.xml
+G:\PMS\PMS.Tests\bin\Debug\System.Net.Http.Formatting.xml
+G:\PMS\PMS.Tests\bin\Debug\System.Web.Helpers.xml
+G:\PMS\PMS.Tests\bin\Debug\System.Web.Http.xml
+G:\PMS\PMS.Tests\bin\Debug\System.Web.Http.WebHost.xml
+G:\PMS\PMS.Tests\bin\Debug\System.Web.Mvc.xml
+G:\PMS\PMS.Tests\bin\Debug\System.Web.Razor.xml
+G:\PMS\PMS.Tests\bin\Debug\System.Web.WebPages.xml
+G:\PMS\PMS.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+G:\PMS\PMS.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+G:\PMS\PMS.Tests\obj\Debug\PMS.Tests.csprojResolveAssemblyReference.cache
+G:\PMS\PMS.Tests\obj\Debug\PMS.Tests.dll
+G:\PMS\PMS.Tests\obj\Debug\PMS.Tests.pdb
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\PMS.Tests.dll.config
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\PMS.Tests.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\PMS.Tests.pdb
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\EntityFramework.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\MetroFramework.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\MetroFramework.Fonts.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\PMS.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.Helpers.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.Http.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.Mvc.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.Razor.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.WebPages.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\PMS.pdb
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\EntityFramework.xml
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.Helpers.xml
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.Http.xml
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.Mvc.xml
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.Razor.xml
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.WebPages.xml
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\LUG Projects\PMS\PMS.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\LUG Projects\PMS\PMS.Tests\obj\Debug\PMS.Tests.csprojResolveAssemblyReference.cache
+D:\LUG Projects\PMS\PMS.Tests\obj\Debug\PMS.Tests.dll
+D:\LUG Projects\PMS\PMS.Tests\obj\Debug\PMS.Tests.pdb

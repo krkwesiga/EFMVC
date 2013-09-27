@@ -1,0 +1,66 @@
+G:\PMS\PMS\bin\PMS.dll
+G:\PMS\PMS\bin\PMS.pdb
+G:\PMS\PMS\bin\EntityFramework.dll
+G:\PMS\PMS\bin\MetroFramework.dll
+G:\PMS\PMS\bin\MetroFramework.Fonts.dll
+G:\PMS\PMS\bin\Microsoft.Web.Infrastructure.dll
+G:\PMS\PMS\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+G:\PMS\PMS\bin\Newtonsoft.Json.dll
+G:\PMS\PMS\bin\System.Net.Http.Formatting.dll
+G:\PMS\PMS\bin\System.Web.Helpers.dll
+G:\PMS\PMS\bin\System.Web.Http.dll
+G:\PMS\PMS\bin\System.Web.Http.WebHost.dll
+G:\PMS\PMS\bin\System.Web.Mvc.dll
+G:\PMS\PMS\bin\System.Web.Razor.dll
+G:\PMS\PMS\bin\System.Web.WebPages.Deployment.dll
+G:\PMS\PMS\bin\System.Web.WebPages.dll
+G:\PMS\PMS\bin\System.Web.WebPages.Razor.dll
+G:\PMS\PMS\bin\EntityFramework.xml
+G:\PMS\PMS\bin\Newtonsoft.Json.xml
+G:\PMS\PMS\bin\System.Net.Http.Formatting.xml
+G:\PMS\PMS\bin\System.Web.Helpers.xml
+G:\PMS\PMS\bin\System.Web.Http.xml
+G:\PMS\PMS\bin\System.Web.Http.WebHost.xml
+G:\PMS\PMS\bin\System.Web.Mvc.xml
+G:\PMS\PMS\bin\System.Web.Razor.xml
+G:\PMS\PMS\bin\System.Web.WebPages.xml
+G:\PMS\PMS\bin\System.Web.WebPages.Deployment.xml
+G:\PMS\PMS\bin\System.Web.WebPages.Razor.xml
+G:\PMS\PMS\obj\Debug\PMS.dll
+G:\PMS\PMS\obj\Debug\PMS.pdb
+G:\PMS\PMS\obj\Debug\PMS.csprojResolveAssemblyReference.cache
+G:\PMS\PMS\obj\Debug\PMS.Migrations.InitialCreate.resources
+G:\PMS\PMS\obj\Debug\PMS.csproj.GenerateResource.Cache
+G:\PMS\PMS\obj\Debug\PMS.Migrations.AddedColumnFinancialYearOnModelCashRequisition.resources
+D:\LUG Projects\PMS\PMS\bin\PMS.dll
+D:\LUG Projects\PMS\PMS\bin\PMS.pdb
+D:\LUG Projects\PMS\PMS\bin\EntityFramework.dll
+D:\LUG Projects\PMS\PMS\bin\MetroFramework.dll
+D:\LUG Projects\PMS\PMS\bin\MetroFramework.Fonts.dll
+D:\LUG Projects\PMS\PMS\bin\Microsoft.Web.Infrastructure.dll
+D:\LUG Projects\PMS\PMS\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\LUG Projects\PMS\PMS\bin\System.Net.Http.Formatting.dll
+D:\LUG Projects\PMS\PMS\bin\System.Web.Helpers.dll
+D:\LUG Projects\PMS\PMS\bin\System.Web.Http.dll
+D:\LUG Projects\PMS\PMS\bin\System.Web.Http.WebHost.dll
+D:\LUG Projects\PMS\PMS\bin\System.Web.Mvc.dll
+D:\LUG Projects\PMS\PMS\bin\System.Web.Razor.dll
+D:\LUG Projects\PMS\PMS\bin\System.Web.WebPages.Deployment.dll
+D:\LUG Projects\PMS\PMS\bin\System.Web.WebPages.dll
+D:\LUG Projects\PMS\PMS\bin\System.Web.WebPages.Razor.dll
+D:\LUG Projects\PMS\PMS\bin\EntityFramework.xml
+D:\LUG Projects\PMS\PMS\bin\System.Net.Http.Formatting.xml
+D:\LUG Projects\PMS\PMS\bin\System.Web.Helpers.xml
+D:\LUG Projects\PMS\PMS\bin\System.Web.Http.xml
+D:\LUG Projects\PMS\PMS\bin\System.Web.Http.WebHost.xml
+D:\LUG Projects\PMS\PMS\bin\System.Web.Mvc.xml
+D:\LUG Projects\PMS\PMS\bin\System.Web.Razor.xml
+D:\LUG Projects\PMS\PMS\bin\System.Web.WebPages.xml
+D:\LUG Projects\PMS\PMS\bin\System.Web.WebPages.Deployment.xml
+D:\LUG Projects\PMS\PMS\bin\System.Web.WebPages.Razor.xml
+D:\LUG Projects\PMS\PMS\obj\Debug\PMS.csprojResolveAssemblyReference.cache
+D:\LUG Projects\PMS\PMS\obj\Debug\PMS.Migrations.InitialCreate.resources
+D:\LUG Projects\PMS\PMS\obj\Debug\PMS.Migrations.AddedColumnFinancialYearOnModelCashRequisition.resources
+D:\LUG Projects\PMS\PMS\obj\Debug\PMS.csproj.GenerateResource.Cache
+D:\LUG Projects\PMS\PMS\obj\Debug\PMS.dll
+D:\LUG Projects\PMS\PMS\obj\Debug\PMS.pdb

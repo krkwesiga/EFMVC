@@ -1,0 +1,21 @@
+﻿<html>
+<head>
+  <title>Simple Site</title>
+  <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
+  <link rel="stylesheet" type="text/css" href="~/Content/sdmenu/sdmenu.css" />
+  <script type="text/javascript" src="~/Content/sdmenu/sdmenu.js"></script>
+  <script type="text/javascript">
+    var myMenu;
+    window.onload = function () {
+      myMenu = new SDMenu("my_menu");
+      myMenu.init();
+    };
+  </script>
+</head>
+
+<body class="body">
+  <div class="logo">System Name</div>
+  <div class="welcome">Welcome, Kenneth Kwesiga | <a href="#" class="link">Log out</a></div>
+  <div class="date">@{@System.DateTime.Now.ToLongDateString();}</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿<div style="float: left" id="my_menu" class="sdmenu">
+
+  @{
+    int MenuComp = 1;
+    for (MenuComp = 1; MenuComp < 8; MenuComp++)
+    {
+    <div class='collapsed'>
+      <span>Menu Component @{@MenuComp}</span>
+      @{
+      int subMenu = 1;
+      for (subMenu = 1; subMenu < 4; subMenu++)
+      {
+        @Html.ActionLink("Sub Menu", "Index", "CashRequisition")
+      }
+      }
+    </div>
+    }
+  }
+</div>

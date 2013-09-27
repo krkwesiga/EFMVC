@@ -1,0 +1,168 @@
+﻿
+.body {
+    font-family: 'Segoe UI', Segoe, Tahoma, Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.homewrapper {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.indexwrapper {
+    width: 1200px;
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    width: 100%;
+    height: 76px;
+    background-color: #ffffff;
+    border-top: 25px solid #0489b1;
+    border-bottom: 25px solid #0489b1;
+}
+
+.logo {
+    font-size: 46px;
+    font-weight: bold;
+    padding: 10px 0 5px 15px;
+    color: #000;
+    background-color: #d3dce0;
+}
+
+.welcome {
+    float: left;
+    padding-left: 15px;
+    width: 48%;
+    color: #fff;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.date {
+    float: left;
+    text-align: right;
+    width: 50%;
+    color: #fff;
+}
+
+#menu {
+    width: auto;
+    height: 75%;
+    float: left;
+    border-right: 1px solid #000;
+    padding-top: 1px;
+    margin: 0;
+}
+
+#content {
+    width: 87%;
+    height: 75%;
+    float: left;
+    margin: 0;
+    padding-left: 10px;
+}
+
+#footer {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    border-top: 1px solid #000;
+    background-color: #0489b1;
+    color: #fff;
+    padding-top: 5px;
+    clear: both;
+}
+
+#systemdescription {
+    float: left;
+    border-right: 0 solid #000;
+    width: 700px;
+    height: 30%;
+}
+
+.about {
+    float: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 48%;
+}
+
+#systemaccess {
+    float: left;
+    border-right: 1px solid #000;
+    width: 0;
+    height: 30%;
+}
+
+.fieldSet {
+    border: 1px solid #000;
+    width: auto;
+}
+
+.access {
+    float: left;
+    text-align: left;
+    width: 120%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+* table.gridtable {
+    font-family: 'Segoe UI', Segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.content {
+    /*margin: 0 auto;
+  width: 50%;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+
+.contentheading {
+    border: 1px solid #333333;
+    background-color: #EEEEEE;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 15px;
+    text-transform: none;
+}
+
+.label {
+    padding: 15px 25px 15px 10px;
+    width: 150px;
+    text-align: left;
+}
+
+.field {
+    padding: 15px 25px 15px 10px;
+    margin: auto;
+}

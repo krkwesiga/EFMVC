@@ -1,0 +1,62 @@
+﻿@model PMS.Models.CashRequisition
+
+@{
+  ViewBag.Title = "Details";
+}
+
+<div class="homewrapper">
+  <div id="header">
+    @Html.Partial("~/Views/Home/_HeaderPartial.cshtml")
+  </div>
+  <div id="menu">
+    @Html.Partial("~/Views/Home/_MenuPartial.cshtml")
+  </div>
+  <div id="content">
+    <div class="contentheading">
+      Requisition Details > @Html.ActionLink("Edit", "Edit", new { id = Model.CashRequisitionId }) > @Html.ActionLink("Back to List", "Index")
+    </div>
+    <fieldset class="fieldSet">
+      <legend>CashRequisition</legend>
+
+      <div>
+        <span class="label">
+          @Html.DisplayNameFor(model => model.Amount): 
+        </span>
+        <span class="field">
+          @Html.DisplayFor(model => model.Amount)
+        </span>
+      </div>
+
+      <div>
+        <span class="label">
+          @Html.DisplayNameFor(model => model.Purpose): 
+        </span>
+        <span class="field">
+          @Html.DisplayFor(model => model.Purpose)
+        </span>
+      </div>
+
+      <div>
+        <span class="label">
+          @Html.DisplayNameFor(model => model.Activity): 
+        </span>
+        <span class="field">
+          @Html.DisplayFor(model => model.Activity)
+        </span>
+      </div>
+
+      <div>
+        <span class="label">
+          @Html.DisplayNameFor(model => model.Project): 
+        </span>
+        <span class="field">
+          @Html.DisplayFor(model => model.Project.ProjectDescription)
+        </span>
+      </div>
+
+    </fieldset>
+  </div>
+  <div id="footer">
+    @Html.Partial("~/Views/Home/_FooterPartial.cshtml")
+  </div>
+</div>

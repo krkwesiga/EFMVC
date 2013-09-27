@@ -1,0 +1,82 @@
+﻿@model PMS.ViewModels.CashRequisitionActiveProjectsViewModel
+
+@{
+  ViewBag.Title = "Create";
+}
+
+<div class="homewrapper">
+
+  <div id="header">
+    @Html.Partial("~/Views/Home/_HeaderPartial.cshtml")
+  </div>
+
+  <div id="menu">
+    @Html.Partial("~/Views/Home/_MenuPartial.cshtml")
+  </div>
+
+  <div id="content">
+    <div class="contentheading">
+      New Cash Requisition > @Html.ActionLink("Back to List", "Index")
+    </div>
+
+  @using (Html.BeginForm())
+  {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset class="fieldSet">
+      <legend>Cash Requisition</legend>
+
+      <div>
+        <span class="label">
+          @Html.LabelFor(model => model.CashRequisitions.Amount)
+        </span>
+        <span class="field">
+          @Html.EditorFor(model => model.CashRequisitions.Amount)@Html.ValidationMessageFor(model => model.CashRequisitions.Amount)
+        </span>
+      </div>
+
+      <div>
+        <span class="label">
+          @Html.LabelFor(model => model.CashRequisitions.Purpose)
+        </span>
+        <span class="field">
+          @Html.EditorFor(model => model.CashRequisitions.Purpose)
+          @Html.ValidationMessageFor(model => model.CashRequisitions.Purpose)
+        </span>
+      </div>
+
+      <div>
+        <span class="label">
+          @Html.LabelFor(model => model.CashRequisitions.Activity)
+        </span>
+        <span class="field">
+          @Html.EditorFor(model => model.CashRequisitions.Activity)
+          @Html.ValidationMessageFor(model => model.CashRequisitions.Activity)
+        </span>
+      </div>
+
+      <div>
+        <span class="label">
+          @Html.LabelFor(model => model.Projects)
+        </span>
+        <span class="field">
+          @Html.DropDownListFor(model => model.CashRequisitions.ProjectId, new SelectList(Model.Projects, "ProjectId", "ProjectName"), "---Select Project---")
+          @Html.ValidationMessageFor(model => model.Projects)
+        </span>
+      </div>
+
+      <p>
+        <input type="submit" value="Create" />
+      </p>
+    </fieldset>
+  }
+</div>
+
+<div id="footer">
+  @Html.Partial("~/Views/Home/_FooterPartial.cshtml")
+</div>
+
+</div>
+
+
